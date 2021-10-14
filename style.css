@@ -2,6 +2,13 @@ body {
     background-color: black;
 }
 
+
+/* =========  color =========== */
+
+.b-black {
+    background-color: rgb(0, 0, 0);
+}
+
 h1,
 h2,
 h3,
@@ -25,68 +32,9 @@ h6 {
 
 /* =========================== */
 
-.fade-in {
-    animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
-    -moz-animation: fadeIn ease 3s;
-    -o-animation: fadeIn ease 3s;
-    -ms-animation: fadeIn ease 3s;
-}
-
 @keyframes fadeIn {
     0% {
         opacity: 0;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0.5;
     }
     100% {
         opacity: 1;
@@ -98,6 +46,15 @@ h6 {
 
 
 /* ===================================== */
+
+.navbar {
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    min-width: 100vw;
+}
 
 .bordered {
     border: solid 8px whitesmoke;
@@ -111,7 +68,8 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
-    opacity: 1;
+    animation-name: fade-in;
+    animation-duration: 3s;
 }
 
 li {

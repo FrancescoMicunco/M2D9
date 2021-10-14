@@ -13,29 +13,6 @@
 </head>
 
 <body>
-
-
-
-
-
-
-
-
-    <!-- EXERCISE 5
-        Add a DELETE bootstrap button at the end of each row of the tracklist. 
-        Attach the functionality to remove its row when it gets clicked. (Requires DOM manipulation)  
-
-        ## EXTRA CSS CHALLENGE ##
-        Make only one button visible at a time, for each row, when the single row gets hovered. 
-        Animate it with a fade-in effect upon the user hovering and fade-out when he/she goes away from it.
-    -->
-
-    <!-- EXERCISE 6
-        Add an "Add Track" button under the tracklist of the album. 
-        It should have a nice shadow transition when its hovered (with the box-shadow property) 
-        to look like as if the button was elevating itself.
-    -->
-
     <!-- EXERCISE 7
         On the click of "Add Track" button, a modal should appear.
         (check in the documentation the modal + button example)
@@ -81,18 +58,20 @@
     <!--   nav Bar    -->
 
 
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link active" href="#aboutMe">About me</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#bestMusic">Best Album I like</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#worstMusic">Worst music ever</a>
-        </li>
+    <div class="container navbar fixed-top d-flex b-black">
+        <ul class="nav justify-content">
+            <li class="nav-item">
+                <a class="nav-link active" href="#aboutMe">About me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#bestMusic">Best Album I like</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#worstMusic">Worst music ever</a>
+            </li>
 
-    </ul>
+        </ul>
+    </div>
 
     <!--      first section     -->
 
