@@ -95,12 +95,11 @@ li {
 
 button.shadowBtn {
     margin-top: 15px;
-    box-shadow: 3px 3px rgba(123, 255, 0, 0.322);
 }
 
 button.shadowBtn:hover {
-    box-shadow: 3px 3px rgba(228, 214, 21, 0.959);
-    font-size: 1.1rem;
+    box-shadow: 2px 8px 20px 2px rgba(167, 167, 167, 0.2), 2px 6px 20px 2px rgba(110, 109, 109, 0.19);
+    font-size: 1.05rem;
 }
 
 
@@ -130,4 +129,10 @@ div#bestMusic>div.card img {
 
 #s-textHero {
     width: 300px;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
