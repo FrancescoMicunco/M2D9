@@ -121,6 +121,10 @@ h6 {
     width: fit-content;
 }
 
+.trackList {
+    max-width: 300px;
+}
+
 
 /* ===========  card =============*/
 
