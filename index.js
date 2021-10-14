@@ -6,7 +6,7 @@ const ulTrackList1 = document.querySelectorAll("div#trackList>ul#ultrack1")
 console.log(delBtn1)
 
 // ex 6
-function SomeDeleteRowFunction() {
+function DeleteRowFunction() {
 
     let td = event.target.parentNode;
     let tr = td.parentNode;
