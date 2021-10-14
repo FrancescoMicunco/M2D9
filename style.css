@@ -114,6 +114,10 @@ h6 {
     opacity: 1;
 }
 
+li {
+    flex-wrap: wrap;
+}
+
 .badge {
     background-color: rgb(0, 255, 0);
     border: none;
