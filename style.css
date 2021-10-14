@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: white;
+}
+
+
+/* =====  effects ======== */
+
+
+/* =========================== */
+
+.fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* ==============  component ============*/
+
+
+/* ===================================== */
+
+.bordered {
+    border: solid 8px whitesmoke;
+    padding: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.jumbotron {
+    min-height: 100vh;
+    background-image: url(/images/ritratto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    opacity: 1;
+}
