@@ -129,6 +129,16 @@ li {
     max-width: 300px;
 }
 
+button.shadowBtn {
+    margin-top: 15px;
+    box-shadow: 3px 3px rgba(123, 255, 0, 0.322);
+}
+
+button.shadowBtn:hover {
+    box-shadow: 3px 3px rgba(228, 214, 21, 0.959);
+    font-size: 1.1rem;
+}
+
 
 /* ===========  card =============*/
 
