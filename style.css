@@ -14,6 +14,10 @@ h1 {
     font-size: 64px;
 }
 
+h2 {
+    color: rgb(26, 102, 102)
+}
+
 h3 {
     color: white;
 }
@@ -112,6 +116,10 @@ div#bestMusic>div.card {
 div#bestMusic>div.card img {
     object-fit: cover;
     max-height: 200px;
+}
+
+.card-title {
+    font-weight: bold;
 }
 
 
